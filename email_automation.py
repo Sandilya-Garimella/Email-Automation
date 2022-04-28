@@ -10,7 +10,7 @@ from datetime import datetime
 
 path = r"C:\Users\sandilya_garimella\Documents\Projects\DirecTV\output\test2"
 
-
+# code to read only unread emails.
 def save_file(messages,path):
     for message in messages:
         if message.Unread:
